@@ -1,0 +1,46 @@
+.homepage {
+  width: 1080px;
+  margin: 30px auto;
+}
+.homepage .link {
+  margin-bottom: 20px;
+}
+
+.homepage .link > a {
+  color: black;
+  text-decoration: none;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr 1fr;
+}
+
+.grid .heading {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.grid .content {
+  padding: 10px 0px;
+}
+
+.grid .actions {
+  color: black;
+}
+
+.grid .actions > a {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 400;
+  color: black;
+}
+
+.grid .no-record {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  text-align: center;
+  margin-top: 1.4rem;
+}
